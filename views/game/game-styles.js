@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native';
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#add8e6',
+    backgroundColor: '#A9F0FF',
   },
   overlayText: {
     color: '#FFF',
@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
     marginVertical: 40,
   },
   buttonTitle: {
-    color: '#BB1F13',
+    color: '#BBC9CC',
     fontSize: 25,
     marginHorizontal: 5,
   },

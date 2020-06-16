@@ -164,7 +164,7 @@ class Game extends PureComponent {
   }
 
   getSatellite = () => {
-    const body = Matter.Bodies.rectangle(randomInt(1, width - 50), randomInt(0, -200), 75, 45, {
+    const body = Matter.Bodies.rectangle(randomInt(1, width - 50), randomInt(0, -200), 7, 30, {
       frictionAir: 0.05,
       label: 'obstacle',
       trajectory: randomInt(-5, 5) / 10,
@@ -175,7 +175,7 @@ class Game extends PureComponent {
   };
 
   getPlanet = () => {
-    const body = Matter.Bodies.rectangle(randomInt(1, width - 50), randomInt(0, -200), 60, 35, {
+    const body = Matter.Bodies.rectangle(randomInt(1, width - 50), randomInt(0, -200), 30, 30, {
       frictionAir: 0.05,
       label: 'obstacle',
       trajectory: randomInt(-5, 5) / 10,
@@ -186,7 +186,7 @@ class Game extends PureComponent {
   };
 
   getUFO = () => {
-    const body = Matter.Bodies.rectangle(randomInt(1, width - 50), randomInt(0, -200), 50, 20, {
+    const body = Matter.Bodies.rectangle(randomInt(1, width - 50), randomInt(0, -200), 35, 40, {
       frictionAir: 0.05,
       label: 'obstacle',
       trajectory: randomInt(-5, 5) / 10,

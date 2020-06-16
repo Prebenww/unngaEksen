@@ -135,6 +135,7 @@ const Floor = ({ body, size }) => {
         width,
         height,
         backgroundColor: 'transparent',
+
       }}
     />
   );

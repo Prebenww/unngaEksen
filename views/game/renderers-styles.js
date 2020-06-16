@@ -5,7 +5,6 @@ const styles = StyleSheet.create({
     width: 30,
     height: 90,
     position: 'absolute',
-   
 
   },
   satellite: {
@@ -18,12 +17,14 @@ const styles = StyleSheet.create({
     width: 40,
     height: 100,
     position: 'absolute',
+
+
+
   },
   ufo: {
     width: 40,
     height: 80,
     position: 'absolute',
-
   },
   star: {
     position: 'absolute',
